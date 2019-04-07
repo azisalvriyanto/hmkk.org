@@ -3,7 +3,7 @@
 						<nav class="navbar align-items-stretch navbar-light bg-white flex-md-nowrap border-bottom p-0">
 							<a class="navbar-brand w-100 mr-0" href="<?= base_url("administrator") ?>" style="line-height: 25px;">
 								<div class="d-table m-auto d-flex align-items-center">
-									<img id="main-logo" class="d-inline-block align-top mr-1" style="height: 25px;" src="<?= base_url("assets/") ?>gambar/pengaturan/logo_<?= $pengaturan["tahun"] ?>.png">
+									<img id="main-logo" class="d-inline-block align-top mr-1" style="height: 25px;" src="<?= $pengaturan["logo"] ?>">
 									<span class="d-none d-md-inline ml-1"><?= $pengaturan["nama_pendek"] ?></span>
 								</div>
 							</a>

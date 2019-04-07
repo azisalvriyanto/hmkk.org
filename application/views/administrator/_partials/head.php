@@ -2,7 +2,7 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 
 		<title><?= $menu["judul"] ." &mdash; ". $pengaturan["nama_panjang"] ?></title>
-		<link href="<?= base_url("assets/") ?>gambar/pengaturan/logo_<?= $pengaturan["tahun"] ?>.png" rel="icon" type="image/x-icon">
+		<link href="<?= $pengaturan["logo"] ?>" rel="icon" type="image/x-icon">
 
 		<meta name="description" content="Pusat Studi dan Konsultasi Hukum">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

@@ -100,7 +100,7 @@ class Umum extends CI_Controller {
 		$data		= $this->M_Pendahuluan->umum($menu);
 
 		$periode_daftar	= $this->M_Periode->daftar();
-		if ($periode_daftar["status"] === 200) {//$periode["keterangan"][count($periode["keterangan"])-1]["periode_id"]
+		if ($periode_daftar["status"] === 200) {
 			$galeri     = $this->M_Galeri->lihat($periode_daftar["keterangan"][count($periode_daftar["keterangan"])-1]["periode_id"]);
 			if ($galeri["status"] === 200) {
 				$instagram_aksestoken	= $galeri["keterangan"]["instagram"];
